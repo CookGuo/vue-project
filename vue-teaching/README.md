@@ -1,21 +1,21 @@
-# vue-teaching
+# vue-project
 
-> A Vue.js project
+> 一个vue的小demo
 
-## Build Setup
+## 项目构建
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 会自动开启一个服务在localhost：8080
 npm run dev
 
-# build for production with minification
+# 上线打包命令
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+# 主要的概述
+vuex是这个demo的最难点，涉及到各个组件之间的传值问题，
+使用了节流来提升性能，以及keep-alive，还有就是使用v-lazy
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
